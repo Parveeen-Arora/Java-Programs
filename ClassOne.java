@@ -1,12 +1,12 @@
-package InheritanceDemo;
+package Abstract;
 
-import Keywords.AttendMulti;
-
-//Multi level inheritance
-public class ClassOne extends AttendMulti
+public abstract class ClassOne 
 {
-	public void add()
-	{
-		System.out.println("add");
-	}
+	 abstract void method1();
+	 abstract void method2();
+	 
+	 void method3()
+	 {
+		 System.out.println("this logic is from method 3");
+	 }
 }
